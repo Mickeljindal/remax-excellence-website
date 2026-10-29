@@ -56,15 +56,6 @@ const fallbackTeamMembers = [
     email: "alldeals@remaxex.com",
     instagram: null,
     linkedin: "https://www.linkedin.com/company/remax-excellence-realty-brokerage/"
-  },
-  {
-    name: "Nikita Suri",
-    role: "Marketing Manager",
-    image: "https://dontdelete2005142.kloudbean.com/1762973954_Nikita Suri.png",
-    phone: null,
-    email: "marketing@remaxex.com",
-    instagram: null,
-    linkedin: "https://www.linkedin.com/company/remax-excellence-realty-brokerage/"
   }
 ];
 
@@ -108,10 +99,16 @@ const TeamSection: React.FC<TeamSectionProps> = ({ teamMembers: wpTeamMembers })
           initial="initial"
           whileInView="animate"
           viewport={{ once: true }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8"
+          // Centered flex-wrap so any team size (4 now, more later from WordPress)
+          // lays out evenly, with no empty grid column and a centered last row.
+          className="flex flex-wrap justify-center gap-8"
         >
           {teamMembers.map((member, index) => (
-            <motion.div key={index} variants={fadeInUp} className="h-full">
+            <motion.div
+              key={index}
+              variants={fadeInUp}
+              className="h-full w-full sm:w-[calc(50%-1rem)] lg:w-[calc(25%-1.5rem)]"
+            >
               <Card className="card-remax group hover:shadow-lg transition-all duration-300 overflow-hidden h-full flex flex-col">
                 <CardContent className="p-0 flex flex-col h-full">
                   <div className="relative overflow-hidden">
