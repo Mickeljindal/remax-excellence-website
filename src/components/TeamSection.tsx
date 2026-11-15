@@ -24,7 +24,7 @@ const fallbackTeamMembers = [
   {
     name: "Aman Bhandaal",
     role: "Broker/Owner",
-    image: "https://assets.co.dev/910e4b67-1d47-4112-8d57-8a5231718f2f/aman-d1be173.png",
+    image: "/images/team/aman-bhandaal.webp",
     phone: "+1 (416) 520-3462",
     email: "aman@remaxex.com",
     instagram: "https://www.instagram.com/aman.bhandaal/?hl=en",
@@ -33,7 +33,7 @@ const fallbackTeamMembers = [
   {
     name: "Gurv Dhillon",
     role: "Broker of Record",
-    image: "https://assets.co.dev/910e4b67-1d47-4112-8d57-8a5231718f2f/gurv-836439f.png",
+    image: "/images/team/gurv-dhillon.webp",
     phone: null,
     email: "gurv@remaxex.com",
     instagram: "https://www.instagram.com/gdhillon.remax/?hl=en",
@@ -42,7 +42,7 @@ const fallbackTeamMembers = [
   {
     name: "Shizu Asai",
     role: "Director of Operations", 
-    image: "https://assets.co.dev/910e4b67-1d47-4112-8d57-8a5231718f2f/shizu-25638c3.png",
+    image: "/images/team/shizu-asai.webp",
     phone: null,
     email: "shizu@remaxex.com",
     instagram: null,
@@ -51,7 +51,7 @@ const fallbackTeamMembers = [
   {
     name: "Lovleen Hundal",
     role: "Deals Manager",
-    image: "https://assets.co.dev/910e4b67-1d47-4112-8d57-8a5231718f2f/loveleen-affabf2.png",
+    image: "/images/team/lovleen-hundal.webp",
     phone: null, 
     email: "alldeals@remaxex.com",
     instagram: null,
